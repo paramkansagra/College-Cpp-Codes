@@ -15,7 +15,7 @@ int main(){
     int birthdays = 0;
     if(day == 29 && month == 2){
         for(int i=year+1;i<=curYear;i++){
-            if(i%400 == 0 || i%4 == 0){
+            if(i%400 == 0 || (i%4 == 0 && i%100 != 0)){
                 birthdays++;
             }
         }
