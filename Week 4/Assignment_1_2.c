@@ -24,10 +24,10 @@ int main(){
     }
 
     if(anagram == false){
-        printf("not anagram \n");
+        printf("not anagram\n");
     }
     else{
-        printf("anagram \n");
+        printf("anagram\n");
     }
 
     return 0;
