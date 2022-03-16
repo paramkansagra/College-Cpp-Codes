@@ -4,6 +4,7 @@
 int main(){
 
     char string[200];
+    printf("input the string ");
     scanf("%s",&string);
 
     int length = 0;

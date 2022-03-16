@@ -12,14 +12,14 @@ int main(){
         exit(1);
     }
 
-    int count = 0;
+    float count = 0;
 
     for(int i=0;i<30;i++){
         count += joining_date;
         joining_date *= 2;
     }
 
-    printf("the total pay is %d \n",joining_date);
+    printf("the total pay is %.0f \n",count);
 
     return 0;
 }
