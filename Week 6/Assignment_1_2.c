@@ -14,7 +14,8 @@
 // Print the result as either ‘found’ or ‘not found’ or ‘invalid’
 
 // Sample Testcase Input-1
-// 76
+// 7
+// 6
 // 11
 // 22
 // 33
