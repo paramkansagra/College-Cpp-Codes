@@ -1,90 +1,55 @@
 // A12-Q2
+
 // Description
-
 // Write a C++ program to find volume of Cube, Cylinder and Sphere using Function Overloading. Print ‘invalid’ and exit from the execution, if the boundary condition is not met.
-
 // Boundary Condition:
-
 // Length and breadth of the rectangle >0
 
 // Input Format:
-
 // The first line reads radius and height of a cylinder (int, int)
-
 // The next line reads side of a cube (int)
-
 // The next line reads radius of sphere (float)
 
- 
-
- 
-
 // Output Format:
-
 // The first line contains the Volume of cylinder
-
 // The next line contains the volume of a cube
-
 // The next line contains the volume of a sphere(float)
-
 // (or)
-
 // invalid
 
 // Example Input/Output 1:
-
 // Input:
-
 // 2 3
-
 // 4
-
 // 5.6
 
 // Output:
-
 // 37.68
-
 // 64
-
 // 735.246
 
- 
-
 // Example Input/Output 2:
-
 // Input:
-
 // -1 2
 
 // Output:
-
 // invalid
 
 // Example Input/Output 3:
-
 // Input:
-
 // 5 8
-
 // 0
 
 // Output:
-
 // invalid
 
 // Example Input/Output 4:
-
 // Input:
-
 // 5 10
-
 // 6
-
 // 0.0
 
 // Output:
-
 // invalid
 
 #include <iostream>
