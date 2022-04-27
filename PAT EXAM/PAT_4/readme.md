@@ -1,4 +1,5 @@
 PAT-IV
+
 Description
 
 Given a size n, and an array of positive integers, Write a ‘C++’ program using class and subsequent algorithm to find a good array, if it can be partitioned into 2 arrays of size n/2, say p1[ ] and p2[ ], such that p1[0] + p2[0] = p1[1] + p2[1] = p1[2] + p2[2] = ... . Given an array Y, determine the size of its largest subset which is a good array. For example, if the Input: size =6; elements: 1 4 2 3 8 10 , then the Output:4.
